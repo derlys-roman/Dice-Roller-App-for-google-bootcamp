@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">App de testes</string>
-    <string name="textoDoButton">aqui va o texto!</string>
+    <string name="textoDoButton">Lançar dado!</string>
     <string name="textoDoTextView">random</string>
 </resources>
