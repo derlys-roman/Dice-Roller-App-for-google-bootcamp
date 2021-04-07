@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         val imageOfDice: ImageView = findViewById(R.id.imageView2)
         rollButton.setOnClickListener {
             val dice = DiceRoller()
-            when (dice.roller().toInt()){
+            when (dice.roller().toInt()) {
                 1 -> imageOfDice.setImageResource(R.drawable.dice_1)
                 2 -> imageOfDice.setImageResource(R.drawable.dice_2)
                 3 -> imageOfDice.setImageResource(R.drawable.dice_3)
@@ -23,7 +23,6 @@ class MainActivity : AppCompatActivity() {
                 5 -> imageOfDice.setImageResource(R.drawable.dice_5)
                 6 -> imageOfDice.setImageResource(R.drawable.dice_6)
             }
-            //dice.roller().toString().also { textviewcentral.text = it }
         }
     }
 }
